@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#clear{
+    clear: both;
+} 
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+    background-color: #131212; 
+    transition: 2s;
+}
+
+.card{
+   height: 200px;
+   width: 600px;
+   margin-top: 50px;
+   margin-left: 360px;
+   text-align: center;
+   
+}
+.card p{
+    text-align: justify;
+    padding-top: 20px;
+}
+.operation input{
+    padding: 5px 10px 5px 10px;
+    
+}
+
+
+/*-----barra de navegación-----*/
+header{
+   
+    align-items: center;
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav li a:hover{
+    color: yellow;
+
+}
+#navega{
+    margin: auto;
+    width: 500px;
+}
+ul{
+    list-style: none;
+
+}
+.nav li a{
+    background-color: black;
+    color:whitesmoke;
+    padding: 10px 15px;
+    display:block;
+}
+.nav li ul li a{
+    background-color: #292828;
+    
+}
+.nav li ul li a:hover{
+    background-color: black;
+    padding: 20px;
+   
+}
+
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+
+}
+.nav li:hover > ul{
+    display: block;
+}
